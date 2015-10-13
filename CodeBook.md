@@ -42,6 +42,6 @@ The `features.txt` contains the complete list of variables of each feature vecto
 
 The data files found in the `train/Inertial Signals` and `test/Inertial Signals` directories are raw data captured in the experiment.  These data files will not be used in this assignment.
 
-The `train/subject_train.txt` contains the subjects in the training set.  The `train/X_train.txt` is the training set.  The `train/y_train.txt` contains the corresponding activities performed by the subjects in the training set.  These files will be used in this assignment.
+The `train/subject_train.txt` contains the subjects in the training set.  The `train/X_train.txt` is the features data in the training set.  The `train/y_train.txt` contains the corresponding activities performed by the subjects in the training set.  These files will be used in this assignment.
 
-The `test/subject_test.txt` contains the subjects in the test set.  The `test/X_test.txt` is the test set.  The `test/y_test.txt` contains the corresponding activities performed by the subjects in the test set.  These files will be used in this assignment.
+The `test/subject_test.txt` contains the subjects in the test set.  The `test/X_test.txt` is the features data in the test set.  The `test/y_test.txt` contains the corresponding activities performed by the subjects in the test set.  These files will be used in this assignment.
