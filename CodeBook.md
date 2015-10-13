@@ -36,3 +36,14 @@ test/subject_test.txt
 test/X_test.txt
 test/y_test.txt
 ```
+The `README.txt` contains information about the experiment and data files included in the data set.
+
+The `features_info.txt` describes the features used in this data set.
+
+The `features.txt` contains the complete list of variables of each feature vector.  This file will be used in this assignment.
+
+The `activity_labels.txt` contains the descriptive activity names. This file will be used in this assignment.
+
+The data files found in the `train/Inertial Signals` and `test/Inertial Signals` directories are raw data captured in the experiment.  These data files will not be used in this assignment.
+
+The `train/subject_train.txt` contains the subjects in the training data.  The `train/X_train.txt` is the training set and `train/y_train.txt` contains descriptive activity names.
