@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This dataset was obtained from Human Activity Recognition Using Smartphones Data Set.
+The [Human Activity Recognition Using Smartphones Data Set](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) is collected through an experiment carried out with a group of 30 volunteers within an age bracket of 19-48 years.
 ```
 README.txt
 features_info.txt
