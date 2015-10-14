@@ -3,7 +3,7 @@
 
 ## Introduction
 
-The [data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) for this assignment is based on the data collected through an experiment conducted using Samsung Galaxy S smartphone.  Information about the experiment can be found at the [Human Activity Recognition Using Smartphones Data Set](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+The [data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) for this project is based on the data collected through an experiment conducted using Samsung Galaxy S smartphone.  Information about the experiment can be found at the [Human Activity Recognition Using Smartphones Data Set](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 The downloaded data set comes in a zipped format.  Following is the content of the zipped file.
 ```
@@ -38,13 +38,13 @@ test/y_test.txt
 ```
 The `README.txt` contains information about the experiment and data files included in the data set.  The `features_info.txt` describes the features used in this data set.
 
-The `features.txt` contains the complete list of variables of each feature vector.  The `activity_labels.txt` contains the descriptive activity names. These files will be used in this assignment.
+The `features.txt` contains the complete list of variables of each feature vector.  The `activity_labels.txt` contains the descriptive activity names. These files will be used in this project.
 
-The data files found in the `train/Inertial Signals` and `test/Inertial Signals` directories are raw data captured in the experiment.  These data files will not be used in this assignment.
+The data files found in the `train/Inertial Signals` and `test/Inertial Signals` directories are raw data captured in the experiment.  These data files will not be used in this project.
 
-The `train/subject_train.txt` contains the subjects in the training set.  The `train/X_train.txt` is the features data in the training set.  The `train/y_train.txt` contains the corresponding activities performed by the subjects in the training set.  These files will be used in this assignment.
+The `train/subject_train.txt` contains the subjects in the training set.  The `train/X_train.txt` is the features data in the training set.  The `train/y_train.txt` contains the corresponding activities performed by the subjects in the training set.  These files will be used in this project.
 
-The `test/subject_test.txt` contains the subjects in the test set.  The `test/X_test.txt` is the features data in the test set.  The `test/y_test.txt` contains the corresponding activities performed by the subjects in the test set.  These files will be used in this assignment.
+The `test/subject_test.txt` contains the subjects in the test set.  The `test/X_test.txt` is the features data in the test set.  The `test/y_test.txt` contains the corresponding activities performed by the subjects in the test set.  These files will be used in this project.
 
 ## The Tidy Data Set
 
@@ -100,282 +100,466 @@ Min.   :-0.15251
 	Max.   :-0.07538
 ```
 
-tBodyAcc-std()-X	Min.   :-0.9961
+### tBodyAcc-std()-X	
+```
+Min.   :-0.9961
 	1st Qu.:-0.9799
 	Median :-0.7526
 	Mean   :-0.5577
 	3rd Qu.:-0.1984
 	Max.   : 0.6269
-tBodyAcc-std()-Y	Min.   :-0.99024
+```
+
+### tBodyAcc-std()-Y	
+```
+Min.   :-0.99024
 	1st Qu.:-0.94205
 	Median :-0.50897
 	Mean   :-0.46046
 	3rd Qu.:-0.03077
 	Max.   : 0.61694
-tBodyAcc-std()-Z	Min.   :-0.9877
+```
+
+### tBodyAcc-std()-Z	
+```
+Min.   :-0.9877
 	1st Qu.:-0.9498
 	Median :-0.6518
 	Mean   :-0.5756
 	3rd Qu.:-0.2306
 	Max.   : 0.6090
-tGravityAcc-mean()-X	Min.   :-0.6800
+```
+
+### tGravityAcc-mean()-X	
+```
+Min.   :-0.6800
 	1st Qu.: 0.8376
 	Median : 0.9208
 	Mean   : 0.6975
 	3rd Qu.: 0.9425
 	Max.   : 0.9745
-tGravityAcc-mean()-Y	Min.   :-0.47989
+```
+
+### tGravityAcc-mean()-Y	
+```
+Min.   :-0.47989
 	1st Qu.:-0.23319
 	Median :-0.12782
 	Mean   :-0.01621
 	3rd Qu.: 0.08773
 	Max.   : 0.95659
-tGravityAcc-mean()-Z	Min.   :-0.49509
+```
+
+### tGravityAcc-mean()-Z	
+```
+Min.   :-0.49509
 	1st Qu.:-0.11726
 	Median : 0.02384
 	Mean   : 0.07413
 	3rd Qu.: 0.14946
 	Max.   : 0.95787
-tGravityAcc-std()-X	Min.   :-0.9968
+```
+
+### tGravityAcc-std()-X	
+```
+Min.   :-0.9968
 	1st Qu.:-0.9825
 	Median :-0.9695
 	Mean   :-0.9638
 	3rd Qu.:-0.9509
 	Max.   :-0.8296
-tGravityAcc-std()-Y	Min.   :-0.9942
+```
+
+### tGravityAcc-std()-Y	
+```
+Min.   :-0.9942
 	1st Qu.:-0.9711
 	Median :-0.9590
 	Mean   :-0.9524
 	3rd Qu.:-0.9370
 	Max.   :-0.6436
-tGravityAcc-std()-Z	Min.   :-0.9910
+```
+
+### tGravityAcc-std()-Z	
+```
+Min.   :-0.9910
 	1st Qu.:-0.9605
 	Median :-0.9450
 	Mean   :-0.9364
 	3rd Qu.:-0.9180
 	Max.   :-0.6102
-tBodyAccJerk-mean()-X	Min.   :0.04269
+```
+
+### tBodyAccJerk-mean()-X	
+```
+Min.   :0.04269
 	1st Qu.:0.07396
 	Median :0.07640
 	Mean   :0.07947
 	3rd Qu.:0.08330
 	Max.   :0.13019
-tBodyAccJerk-mean()-Y	Min.   :-0.0386872
+```
+
+### tBodyAccJerk-mean()-Y	
+```
+Min.   :-0.0386872
 	1st Qu.: 0.0004664
 	Median : 0.0094698
 	Mean   : 0.0075652
 	3rd Qu.: 0.0134008
 	Max.   : 0.0568186
-tBodyAccJerk-mean()-Z	Min.   :-0.067458
+```
+
+### tBodyAccJerk-mean()-Z	
+```
+Min.   :-0.067458
 	1st Qu.:-0.010601
 	Median :-0.003861
 	Mean   :-0.004953
 	3rd Qu.: 0.001958
 	Max.   : 0.038053
-tBodyAccJerk-std()-X	Min.   :-0.9946
+```
+
+### tBodyAccJerk-std()-X	
+```
+Min.   :-0.9946
 	1st Qu.:-0.9832
 	Median :-0.8104
 	Mean   :-0.5949
 	3rd Qu.:-0.2233
 	Max.   : 0.5443
-tBodyAccJerk-std()-Y	Min.   :-0.9895
+```
+
+### tBodyAccJerk-std()-Y	
+```
+Min.   :-0.9895
 	1st Qu.:-0.9724
 	Median :-0.7756
 	Mean   :-0.5654
 	3rd Qu.:-0.1483
 	Max.   : 0.3553
-tBodyAccJerk-std()-Z	Min.   :-0.99329
+```
+
+### tBodyAccJerk-std()-Z	
+```
+Min.   :-0.99329
 	1st Qu.:-0.98266
 	Median :-0.88366
 	Mean   :-0.73596
 	3rd Qu.:-0.51212
 	Max.   : 0.03102
-tBodyGyro-mean()-X	Min.   :-0.20578
+```
+
+### tBodyGyro-mean()-X	
+```
+Min.   :-0.20578
 	1st Qu.:-0.04712
 	Median :-0.02871
 	Mean   :-0.03244
 	3rd Qu.:-0.01676
 	Max.   : 0.19270
-tBodyGyro-mean()-Y	Min.   :-0.20421
+```
+
+### tBodyGyro-mean()-Y	
+```
+Min.   :-0.20421
 	1st Qu.:-0.08955
 	Median :-0.07318
 	Mean   :-0.07426
 	3rd Qu.:-0.06113
 	Max.   : 0.02747
-tBodyGyro-mean()-Z	Min.   :-0.07245
+```
+
+### tBodyGyro-mean()-Z	
+```
+Min.   :-0.07245
 	1st Qu.: 0.07475
 	Median : 0.08512
 	Mean   : 0.08744
 	3rd Qu.: 0.10177
 	Max.   : 0.17910
-tBodyGyro-std()-X	Min.   :-0.9943
+```
+
+### tBodyGyro-std()-X	
+```
+Min.   :-0.9943
 	1st Qu.:-0.9735
 	Median :-0.7890
 	Mean   :-0.6916
 	3rd Qu.:-0.4414
 	Max.   : 0.2677
-tBodyGyro-std()-Y	Min.   :-0.9942
+```
+
+### tBodyGyro-std()-Y	
+```
+Min.   :-0.9942
 	1st Qu.:-0.9629
 	Median :-0.8017
 	Mean   :-0.6533
 	3rd Qu.:-0.4196
 	Max.   : 0.4765
-tBodyGyro-std()-Z	Min.   :-0.9855
+```
+
+### tBodyGyro-std()-Z	
+```
+Min.   :-0.9855
 	1st Qu.:-0.9609
 	Median :-0.8010
 	Mean   :-0.6164
 	3rd Qu.:-0.3106
 	Max.   : 0.5649
-tBodyGyroJerk-mean()-X	Min.   :-0.15721
+```
+
+### tBodyGyroJerk-mean()-X	
+````
+Min.   :-0.15721
 	1st Qu.:-0.10322
 	Median :-0.09868
 	Mean   :-0.09606
 	3rd Qu.:-0.09110
 	Max.   :-0.02209
-tBodyGyroJerk-mean()-Y	Min.   :-0.07681
+```
+
+### tBodyGyroJerk-mean()-Y	
+```
+Min.   :-0.07681
 	1st Qu.:-0.04552
 	Median :-0.04112
 	Mean   :-0.04269
 	3rd Qu.:-0.03842
 	Max.   :-0.01320
-tBodyGyroJerk-mean()-Z	Min.   :-0.092500
+```
+
+### tBodyGyroJerk-mean()-Z	
+```
+Min.   :-0.092500
 	1st Qu.:-0.061725
 	Median :-0.053430
 	Mean   :-0.054802
 	3rd Qu.:-0.048985
 	Max.   :-0.006941
-tBodyGyroJerk-std()-X	Min.   :-0.9965
+```
+
+### tBodyGyroJerk-std()-X	
+```
+Min.   :-0.9965
 	1st Qu.:-0.9800
 	Median :-0.8396
 	Mean   :-0.7036
 	3rd Qu.:-0.4629
 	Max.   : 0.1791
-tBodyGyroJerk-std()-Y	Min.   :-0.9971
+```
+
+### tBodyGyroJerk-std()-Y	
+```
+Min.   :-0.9971
 	1st Qu.:-0.9832
 	Median :-0.8942
 	Mean   :-0.7636
 	3rd Qu.:-0.5861
 	Max.   : 0.2959
-tBodyGyroJerk-std()-Z	Min.   :-0.9954
+```
+
+### tBodyGyroJerk-std()-Z	
+```
+Min.   :-0.9954
 	1st Qu.:-0.9848
 	Median :-0.8610
 	Mean   :-0.7096
 	3rd Qu.:-0.4741
 	Max.   : 0.1932
-tBodyAccMag-mean()	Min.   :-0.9865
+```
+
+### tBodyAccMag-mean()	
+```
+Min.   :-0.9865
 	1st Qu.:-0.9573
 	Median :-0.4829
 	Mean   :-0.4973
 	3rd Qu.:-0.0919
 	Max.   : 0.6446
-tBodyAccMag-std()	Min.   :-0.9865
+```
+
+### tBodyAccMag-std()	
+```
+Min.   :-0.9865
 	1st Qu.:-0.9430
 	Median :-0.6074
 	Mean   :-0.5439
 	3rd Qu.:-0.2090
 	Max.   : 0.4284
-tGravityAccMag-mean()	Min.   :-0.9865
+```
+
+### tGravityAccMag-mean()	
+```
+Min.   :-0.9865
 	1st Qu.:-0.9573
 	Median :-0.4829
 	Mean   :-0.4973
 	3rd Qu.:-0.0919
 	Max.   : 0.6446
-tGravityAccMag-std()	Min.   :-0.9865
+```
+
+### tGravityAccMag-std()	
+```
+Min.   :-0.9865
 	1st Qu.:-0.9430
 	Median :-0.6074
 	Mean   :-0.5439
 	3rd Qu.:-0.2090
 	Max.   : 0.4284
-tBodyAccJerkMag-mean()	Min.   :-0.9928
+```
+
+### tBodyAccJerkMag-mean()	
+```
+Min.   :-0.9928
 	1st Qu.:-0.9807
 	Median :-0.8168
 	Mean   :-0.6079
 	3rd Qu.:-0.2456
 	Max.   : 0.4345
-tBodyAccJerkMag-std()	Min.   :-0.9946
+```
+
+### tBodyAccJerkMag-std()	
+```
+Min.   :-0.9946
 	1st Qu.:-0.9765
 	Median :-0.8014
 	Mean   :-0.5842
 	3rd Qu.:-0.2173
 	Max.   : 0.4506
-tBodyGyroMag-mean()	Min.   :-0.9807
+```
+
+### tBodyGyroMag-mean()	
+```
+Min.   :-0.9807
 	1st Qu.:-0.9461
 	Median :-0.6551
 	Mean   :-0.5652
 	3rd Qu.:-0.2159
 	Max.   : 0.4180
-tBodyGyroMag-std()	Min.   :-0.9814
+```
+
+### tBodyGyroMag-std()	
+```
+Min.   :-0.9814
 	1st Qu.:-0.9476
 	Median :-0.7420
 	Mean   :-0.6304
 	3rd Qu.:-0.3602
 	Max.   : 0.3000
-tBodyGyroJerkMag-mean()	Min.   :-0.99732
+```
+
+### tBodyGyroJerkMag-mean()	
+```
+Min.   :-0.99732
 	1st Qu.:-0.98515
 	Median :-0.86479
 	Mean   :-0.73637
 	3rd Qu.:-0.51186
 	Max.   : 0.08758
-tBodyGyroJerkMag-std()	Min.   :-0.9977
+```
+
+### tBodyGyroJerkMag-std()	
+```
+Min.   :-0.9977
 	1st Qu.:-0.9805
 	Median :-0.8809
 	Mean   :-0.7550
 	3rd Qu.:-0.5767
 	Max.   : 0.2502
-fBodyAcc-mean()-X	Min.   :-0.9952
+```
+
+### fBodyAcc-mean()-X	
+```
+Min.   :-0.9952
 	1st Qu.:-0.9787
 	Median :-0.7691
 	Mean   :-0.5758
 	3rd Qu.:-0.2174
 	Max.   : 0.5370
-fBodyAcc-mean()-Y	Min.   :-0.98903
+```
+
+### fBodyAcc-mean()-Y	
+```
+Min.   :-0.98903
 	1st Qu.:-0.95361
 	Median :-0.59498
 	Mean   :-0.48873
 	3rd Qu.:-0.06341
 	Max.   : 0.52419
-fBodyAcc-mean()-Z	Min.   :-0.9895
+```
+
+### fBodyAcc-mean()-Z	
+```
+Min.   :-0.9895
 	1st Qu.:-0.9619
 	Median :-0.7236
 	Mean   :-0.6297
 	3rd Qu.:-0.3183
 	Max.   : 0.2807
-fBodyAcc-std()-X	Min.   :-0.9966
+```
+
+### fBodyAcc-std()-X	
+```
+Min.   :-0.9966
 	1st Qu.:-0.9820
 	Median :-0.7470
 	Mean   :-0.5522
 	3rd Qu.:-0.1966
 	Max.   : 0.6585
-fBodyAcc-std()-Y	Min.   :-0.99068
+```
+
+### fBodyAcc-std()-Y	
+```
+Min.   :-0.99068
 	1st Qu.:-0.94042
 	Median :-0.51338
 	Mean   :-0.48148
 	3rd Qu.:-0.07913
 	Max.   : 0.56019
-fBodyAcc-std()-Z	Min.   :-0.9872
+```
+
+### fBodyAcc-std()-Z	
+```
+Min.   :-0.9872
 	1st Qu.:-0.9459
 	Median :-0.6441
 	Mean   :-0.5824
 	3rd Qu.:-0.2655
 	Max.   : 0.6871
-fBodyAcc-meanFreq()-X	Min.   :-0.63591
+```
+
+### fBodyAcc-meanFreq()-X	
+```
+Min.   :-0.63591
 	1st Qu.:-0.39165
 	Median :-0.25731
 	Mean   :-0.23227
 	3rd Qu.:-0.06105
 	Max.   : 0.15912
-fBodyAcc-meanFreq()-Y	Min.   :-0.379518
+```
+
+### fBodyAcc-meanFreq()-Y	
+```
+Min.   :-0.379518
 	1st Qu.:-0.081314
 	Median : 0.007855
 	Mean   : 0.011529
 	3rd Qu.: 0.086281
 	Max.   : 0.466528
-fBodyAcc-meanFreq()-Z	Min.   :-0.52011
+```
+
+### fBodyAcc-meanFreq()-Z	
+```
+Min.   :-0.52011
 	1st Qu.:-0.03629
 	Median : 0.06582
 	Mean   : 0.04372
 	3rd Qu.: 0.17542
 	Max.   : 0.40253
+```
+
 fBodyAccJerk-mean()-X	Min.   :-0.9946
 	1st Qu.:-0.9828
 	Median :-0.8126
