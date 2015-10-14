@@ -45,6 +45,7 @@ The data files found in the `train/Inertial Signals` and `test/Inertial Signals`
 The `train/subject_train.txt` contains the subjects in the training set.  The `train/X_train.txt` is the features data in the training set.  The `train/y_train.txt` contains the corresponding activities performed by the subjects in the training set.  These files will be used in this project.
 
 The `test/subject_test.txt` contains the subjects in the test set.  The `test/X_test.txt` is the features data in the test set.  The `test/y_test.txt` contains the corresponding activities performed by the subjects in the test set.  These files will be used in this project.
+___
 
 ## Progressing the Data
 I am supposed to merge the data in the training set and test set into one single set of data.  I have merged `subject_train.txt` with `subject_test.txt`, `X_train.txt` with `X_test.txt` and `y_train.txt` with `y_test.txt` using rbind.  
@@ -58,14 +59,15 @@ After retaining only the measurements I need in the measurement set, I merged su
 Next I need to replace the values of the activity variable with descriptive activity name.  In order to do that, I loaded the activity names from `activity_labels.txt` into a data frame.  Each of the activity name has a key in the data frame that allows us to link to the "ActivityID" variable in the single data set.  Using this key, I did an inner join to add a new variable in the single data set with the matching activity name populated.  I named this new variable as "Activity".  I had then removed the "ActivityID" variable which is numberic representation of the activities.
 
 Finally the goal is to create a tidy data set with with the average of each measurement variable for each activity and each subject.  I had used the group_by function to group the single data set by "Subject" and "Activity".  The grouped data set was then piped into the summarize_each function to compute the mean of each measurement variable for each activity and each subject.  The resultant tidy data set was then written to TidyData.txt using the write.table function.
+___
 
+## Tidy Data Set
 
+According to Hadley Wickham, a tidy data set needs to meet the following 3 points.
 
-Each variable forms a column.
-Each observation forms a row.
-Each type of observational unit forms a table.
-
-## The Tidy Data Set
+1. Each variable forms a column.
+2. Each observation forms a row.
+3. Each type of observational unit forms a table.
 
 The following describes the variables in the final Tidy Data Set.
 
