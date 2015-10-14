@@ -128,52 +128,72 @@ Max.          : 0.6269
 
 ### tBodyAcc-std()-Y	
 ```
-Min.   :-0.99024
-	1st Qu.:-0.94205
-	Median :-0.50897
-	Mean   :-0.46046
-	3rd Qu.:-0.03077
-	Max.   : 0.61694
+Description   : The standard deviation of the time domain body acceleration signal captured at y axis.  
+                In this Tidy Data Set, tBodyAcc-std()-Y is the average for each activity 
+                and each subject.
+Class         : Numeric
+Min.          : -0.99024
+1st Qu.       : -0.94205
+Median        : -0.50897
+Mean          : -0.46046
+3rd Qu.       : -0.03077
+Max.          : 0.61694
 ```
 
 ### tBodyAcc-std()-Z	
 ```
-Min.   :-0.9877
-	1st Qu.:-0.9498
-	Median :-0.6518
-	Mean   :-0.5756
-	3rd Qu.:-0.2306
-	Max.   : 0.6090
+Description   : The standard deviation of the time domain body acceleration signal captured at z axis.  
+                In this Tidy Data Set, tBodyAcc-std()-Z	is the average for each activity 
+                and each subject.
+Class         : Numeric
+Min.          : -0.9877
+1st Qu.       : -0.9498
+Median        : -0.6518
+Mean          : -0.5756
+3rd Qu.       : -0.2306
+Max.          : 0.6090
 ```
 
 ### tGravityAcc-mean()-X	
 ```
-Min.   :-0.6800
-	1st Qu.: 0.8376
-	Median : 0.9208
-	Mean   : 0.6975
-	3rd Qu.: 0.9425
-	Max.   : 0.9745
+Description   : The mean of the time domain gravity acceleration signal captured at x axis.  
+                In this Tidy Data Set, tGravityAcc-mean()-X	 is the average for each activity 
+                and each subject.
+Class         : Numeric
+Min.          : -0.6800
+1st Qu.       : 0.8376
+Median        : 0.9208
+Mean          : 0.6975
+3rd Qu.       : 0.9425
+Max.          : 0.9745
 ```
 
 ### tGravityAcc-mean()-Y	
 ```
-Min.   :-0.47989
-	1st Qu.:-0.23319
-	Median :-0.12782
-	Mean   :-0.01621
-	3rd Qu.: 0.08773
-	Max.   : 0.95659
+Description   : The mean of the time domain gravity acceleration signal captured at y axis.  
+                In this Tidy Data Set, tGravityAcc-mean()-Y	 is the average for each activity 
+                and each subject.
+Class         : Numeric
+Min.          : -0.47989
+1st Qu.       : -0.23319
+Median        : -0.12782
+Mean          : -0.01621
+3rd Qu.       : 0.08773
+Max.          : 0.95659
 ```
 
 ### tGravityAcc-mean()-Z	
 ```
-Min.   :-0.49509
-	1st Qu.:-0.11726
-	Median : 0.02384
-	Mean   : 0.07413
-	3rd Qu.: 0.14946
-	Max.   : 0.95787
+Description   : The mean of the time domain gravity acceleration signal captured at z axis.  
+                In this Tidy Data Set, tGravityAcc-mean()-Z	 is the average for each activity 
+                and each subject.
+Class         : Numeric
+Min.          : -0.49509
+1st Qu.       : -0.11726
+Median        : 0.02384
+Mean          : 0.07413
+3rd Qu.       : 0.14946
+Max.          : 0.95787
 ```
 
 ### tGravityAcc-std()-X	
