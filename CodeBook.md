@@ -436,92 +436,83 @@ Value         : -1.0000000 to 1.00000000
 
 ### fBodyAcc-mean()-X	
 ```
-Min.   :-0.9952
-	1st Qu.:-0.9787
-	Median :-0.7691
-	Mean   :-0.5758
-	3rd Qu.:-0.2174
-	Max.   : 0.5370
+Description   : Mean of the frequency domain body acceleration signal in x axis.  
+                In this Tidy Data Set, each value of fBodyAcc-mean()-X is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAcc-mean()-Y	
 ```
-Min.   :-0.98903
-	1st Qu.:-0.95361
-	Median :-0.59498
-	Mean   :-0.48873
-	3rd Qu.:-0.06341
-	Max.   : 0.52419
+Description   : Mean of the frequency domain body acceleration signal in y axis.  
+                In this Tidy Data Set, each value of fBodyAcc-mean()-Y is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAcc-mean()-Z	
 ```
-Min.   :-0.9895
-	1st Qu.:-0.9619
-	Median :-0.7236
-	Mean   :-0.6297
-	3rd Qu.:-0.3183
-	Max.   : 0.2807
+Description   : Mean of the frequency domain body acceleration signal in z axis.  
+                In this Tidy Data Set, each value of fBodyAcc-mean()-Z is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAcc-std()-X	
 ```
-Min.   :-0.9966
-	1st Qu.:-0.9820
-	Median :-0.7470
-	Mean   :-0.5522
-	3rd Qu.:-0.1966
-	Max.   : 0.6585
+Description   : Standard deviation of the frequency domain body acceleration signal in x axis.  
+                In this Tidy Data Set, each value of fBodyAcc-std()-X is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAcc-std()-Y	
 ```
-Min.   :-0.99068
-	1st Qu.:-0.94042
-	Median :-0.51338
-	Mean   :-0.48148
-	3rd Qu.:-0.07913
-	Max.   : 0.56019
+Description   : Standard deviation of the frequency domain body acceleration signal in y axis.  
+                In this Tidy Data Set, each value of fBodyAcc-std()-Y is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAcc-std()-Z	
 ```
-Min.   :-0.9872
-	1st Qu.:-0.9459
-	Median :-0.6441
-	Mean   :-0.5824
-	3rd Qu.:-0.2655
-	Max.   : 0.6871
+Description   : Standard deviation of the frequency domain body acceleration signal in z axis.  
+                In this Tidy Data Set, each value of fBodyAcc-std()-Z is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAcc-meanFreq()-X	
 ```
-Min.   :-0.63591
-	1st Qu.:-0.39165
-	Median :-0.25731
-	Mean   :-0.23227
-	3rd Qu.:-0.06105
-	Max.   : 0.15912
+Description   : Mean frequency of the frequency domain body acceleration signal in x axis.  
+                In this Tidy Data Set, each value of fBodyAcc-meanFreq()-X is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAcc-meanFreq()-Y	
 ```
-Min.   :-0.379518
-	1st Qu.:-0.081314
-	Median : 0.007855
-	Mean   : 0.011529
-	3rd Qu.: 0.086281
-	Max.   : 0.466528
+Description   : Mean frequency of the frequency domain body acceleration signal in y axis.  
+                In this Tidy Data Set, each value of fBodyAcc-meanFreq()-Y is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAcc-meanFreq()-Z	
 ```
-Min.   :-0.52011
-	1st Qu.:-0.03629
-	Median : 0.06582
-	Mean   : 0.04372
-	3rd Qu.: 0.17542
-	Max.   : 0.40253
+Description   : Mean frequency of the frequency domain body acceleration signal in z axis.  
+                In this Tidy Data Set, each value of fBodyAcc-meanFreq()-Z is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAccJerk-mean()-X	
