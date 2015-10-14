@@ -71,17 +71,18 @@ Value         : WALKING
 ```
 
 ### tBodyAcc-mean()-X	
+
 ```
-Description		: The mean of time domain body acceleration signal captured x axis.  
-								The value in the Tidy Data Set is the average of each tBodyAcc-mean()-X 
-								for each activity and each subject.
+Description   : The mean of time domain body acceleration signal captured x axis.  
+                The value in the Tidy Data Set is the average of each tBodyAcc-mean()-X 
+                for each activity and each subject.
 Class         : Numeric
-Min.   	      : 0.2216
+Min.          : 0.2216
 1st Qu.       : 0.2712
-Median 	      : 0.2770
-Mean	      : 0.2743
+Median        : 0.2770
+Mean          : 0.2743
 3rd Qu.       : 0.2800
-Max.	      : 0.3015
+Max.          : 0.3015
 ```
 
 ### tBodyAcc-mean()-Y	
