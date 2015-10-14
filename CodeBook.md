@@ -46,6 +46,21 @@ The `train/subject_train.txt` contains the subjects in the training set.  The `t
 
 The `test/subject_test.txt` contains the subjects in the test set.  The `test/X_test.txt` is the features data in the test set.  The `test/y_test.txt` contains the corresponding activities performed by the subjects in the test set.  These files will be used in this project.
 
+## Progressing the Data
+I am supposed to merge the data in the training set and test set into one single set of data.  I have merged `subject_train.txt` with `subject_test.txt`, `X_train.txt` with `X_test.txt` and `y_train.txt` with `y_test.txt` using rbind.  
+
+I leave the merging of the subject, activity and measurement set (`X_train.txt` and `X_test.txt`) at the later part.  This is because we only want to retain measurements with mean and standard deviation measurement.  It will be easier to do that before the measurement set gets merged.  In order to achieve this goal, I used grepl to search the 561 feature labels from `features.txt` for the pattern "mean|std".  The result from grepl is a logical vector where value will be set to TRUE if there is a match.  The logical vector is used to subset the columns that I want to keep in the measurement set.
+
+Feature labels with the word Mean (capital M) was not included because they are used in the angle variable and not really a measurement of mean.  The subsetting has also dropped the bandsEnergy variables which are having duplication.
+
+After retaining only the measurements I need in the measurement set, I merged subject, activity and measurement set using cbind.  This formed the single data set.  I had then provided descriptive names for the variables in the single data set.  For the subject and activity variables, I have given the names "Subject" and "ActivityID".  I have used "ActivityID" because the value is still in numeric form at that point of time.  For the rest of measurement variables, the names come from the subsetted feature labels which have either the word "mean" or "std" in the name.
+
+Next I need to replace the values of the activity variable with descriptive activity name.  In order to do that, I loaded the activity names from `activity_labels.txt` into a data frame.  Each of the activity name has a key in the data frame that allows us to link to the "ActivityID" variable in the single data set.  Using this key, I did an inner join to add a new variable in the single data set with the matching activity name populated.  I named this new variable as "Activity".  I had then removed the "ActivityID" variable which is numberic representation of the activities.
+
+Finally the goal is to create a tidy data set with with the average of each measurement variable for each activity and each subject.  I had used the group_by function to group the single data set by "Subject" and "Activity".  The grouped data set was then piped into the summarize_each function to compute the mean of each measurement variable for each activity and each subject.  The resultant tidy data set was then written to TidyData.txt using the write.table function.
+
+
+
 Each variable forms a column.
 Each observation forms a row.
 Each type of observational unit forms a table.
