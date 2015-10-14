@@ -560,183 +560,302 @@ Min.   :-0.52011
 	Max.   : 0.40253
 ```
 
-fBodyAccJerk-mean()-X	Min.   :-0.9946
+### fBodyAccJerk-mean()-X	
+```
+Min.   :-0.9946
 	1st Qu.:-0.9828
 	Median :-0.8126
 	Mean   :-0.6139
 	3rd Qu.:-0.2820
 	Max.   : 0.4743
-fBodyAccJerk-mean()-Y	Min.   :-0.9894
+```
+
+### fBodyAccJerk-mean()-Y	
+```
+Min.   :-0.9894
 	1st Qu.:-0.9725
 	Median :-0.7817
 	Mean   :-0.5882
 	3rd Qu.:-0.1963
 	Max.   : 0.2767
-fBodyAccJerk-mean()-Z	Min.   :-0.9920
+```
+
+### fBodyAccJerk-mean()-Z	
+```
+Min.   :-0.9920
 	1st Qu.:-0.9796
 	Median :-0.8707
 	Mean   :-0.7144
 	3rd Qu.:-0.4697
 	Max.   : 0.1578
-fBodyAccJerk-std()-X	Min.   :-0.9951
+```
+
+### fBodyAccJerk-std()-X	
+```
+Min.   :-0.9951
 	1st Qu.:-0.9847
 	Median :-0.8254
 	Mean   :-0.6121
 	3rd Qu.:-0.2475
 	Max.   : 0.4768
-fBodyAccJerk-std()-Y	Min.   :-0.9905
+```
+
+### fBodyAccJerk-std()-Y	
+```
+Min.   :-0.9905
 	1st Qu.:-0.9737
 	Median :-0.7852
 	Mean   :-0.5707
 	3rd Qu.:-0.1685
 	Max.   : 0.3498
-fBodyAccJerk-std()-Z	Min.   :-0.993108
+```
+
+### fBodyAccJerk-std()-Z	
+```
+Min.   :-0.993108
 	1st Qu.:-0.983747
 	Median :-0.895121
 	Mean   :-0.756489
 	3rd Qu.:-0.543787
 	Max.   :-0.006236
-fBodyAccJerk-meanFreq()-X	Min.   :-0.57604
+```
+
+### fBodyAccJerk-meanFreq()-X	
+```
+Min.   :-0.57604
 	1st Qu.:-0.28966
 	Median :-0.06091
 	Mean   :-0.06910
 	3rd Qu.: 0.17660
 	Max.   : 0.33145
-fBodyAccJerk-meanFreq()-Y	Min.   :-0.60197
+```
+
+### fBodyAccJerk-meanFreq()-Y	
+```
+Min.   :-0.60197
 	1st Qu.:-0.39751
 	Median :-0.23209
 	Mean   :-0.22810
 	3rd Qu.:-0.04721
 	Max.   : 0.19568
-fBodyAccJerk-meanFreq()-Z	Min.   :-0.62756
+```
+
+### fBodyAccJerk-meanFreq()-Z	
+```
+Min.   :-0.62756
 	1st Qu.:-0.30867
 	Median :-0.09187
 	Mean   :-0.13760
 	3rd Qu.: 0.03858
 	Max.   : 0.23011
-fBodyGyro-mean()-X	Min.   :-0.9931
+```
+
+### fBodyGyro-mean()-X	
+```
+Min.   :-0.9931
 	1st Qu.:-0.9697
 	Median :-0.7300
 	Mean   :-0.6367
 	3rd Qu.:-0.3387
 	Max.   : 0.4750
-fBodyGyro-mean()-Y	Min.   :-0.9940
+```
+
+### fBodyGyro-mean()-Y	
+```
+Min.   :-0.9940
 	1st Qu.:-0.9700
 	Median :-0.8141
 	Mean   :-0.6767
 	3rd Qu.:-0.4458
 	Max.   : 0.3288
-fBodyGyro-mean()-Z	Min.   :-0.9860
+```
+
+### fBodyGyro-mean()-Z	
+```
+Min.   :-0.9860
 	1st Qu.:-0.9624
 	Median :-0.7909
 	Mean   :-0.6044
 	3rd Qu.:-0.2635
 	Max.   : 0.4924
-fBodyGyro-std()-X	Min.   :-0.9947
+```
+
+### fBodyGyro-std()-X	
+```
+Min.   :-0.9947
 	1st Qu.:-0.9750
 	Median :-0.8086
 	Mean   :-0.7110
 	3rd Qu.:-0.4813
 	Max.   : 0.1966
-fBodyGyro-std()-Y	Min.   :-0.9944
+```
+
+### fBodyGyro-std()-Y	
+```
+Min.   :-0.9944
 	1st Qu.:-0.9602
 	Median :-0.7964
 	Mean   :-0.6454
 	3rd Qu.:-0.4154
 	Max.   : 0.6462
-fBodyGyro-std()-Z	Min.   :-0.9867
+```
+
+### fBodyGyro-std()-Z	
+```
+Min.   :-0.9867
 	1st Qu.:-0.9643
 	Median :-0.8224
 	Mean   :-0.6577
 	3rd Qu.:-0.3916
 	Max.   : 0.5225
-fBodyGyro-meanFreq()-X	Min.   :-0.395770
+```
+
+### fBodyGyro-meanFreq()-X	
+```
+Min.   :-0.395770
 	1st Qu.:-0.213363
 	Median :-0.115527
 	Mean   :-0.104551
 	3rd Qu.: 0.002655
 	Max.   : 0.249209
-fBodyGyro-meanFreq()-Y	Min.   :-0.66681
+```
+
+### fBodyGyro-meanFreq()-Y	
+```
+Min.   :-0.66681
 	1st Qu.:-0.29433
 	Median :-0.15794
 	Mean   :-0.16741
 	3rd Qu.:-0.04269
 	Max.   : 0.27314
-fBodyGyro-meanFreq()-Z	Min.   :-0.50749
+```
+
+### fBodyGyro-meanFreq()-Z	
+```
+Min.   :-0.50749
 	1st Qu.:-0.15481
 	Median :-0.05081
 	Mean   :-0.05718
 	3rd Qu.: 0.04152
 	Max.   : 0.37707
-fBodyAccMag-mean()	Min.   :-0.9868
+```
+
+### fBodyAccMag-mean()	
+```
+Min.   :-0.9868
 	1st Qu.:-0.9560
 	Median :-0.6703
 	Mean   :-0.5365
 	3rd Qu.:-0.1622
 	Max.   : 0.5866
-fBodyAccMag-std()	Min.   :-0.9876
+```
+
+### fBodyAccMag-std()	
+```
+Min.   :-0.9876
 	1st Qu.:-0.9452
 	Median :-0.6513
 	Mean   :-0.6210
 	3rd Qu.:-0.3654
 	Max.   : 0.1787
-fBodyAccMag-meanFreq()	Min.   :-0.31234
+```
+
+### fBodyAccMag-meanFreq()	
+```
+Min.   :-0.31234
 	1st Qu.:-0.01475
 	Median : 0.08132
 	Mean   : 0.07613
 	3rd Qu.: 0.17436
 	Max.   : 0.43585
-fBodyBodyAccJerkMag-mean()	Min.   :-0.9940
+```
+
+### fBodyBodyAccJerkMag-mean()	
+```
+Min.   :-0.9940
 	1st Qu.:-0.9770
 	Median :-0.7940
 	Mean   :-0.5756
 	3rd Qu.:-0.1872
 	Max.   : 0.5384
-fBodyBodyAccJerkMag-std()	Min.   :-0.9944
+```
+
+### fBodyBodyAccJerkMag-std()	
+```
+Min.   :-0.9944
 	1st Qu.:-0.9752
 	Median :-0.8126
 	Mean   :-0.5992
 	3rd Qu.:-0.2668
 	Max.   : 0.3163
-fBodyBodyAccJerkMag-meanFreq()	Min.   :-0.12521
+```
+
+### fBodyBodyAccJerkMag-meanFreq()	
+```
+Min.   :-0.12521
 	1st Qu.: 0.04527
 	Median : 0.17198
 	Mean   : 0.16255
 	3rd Qu.: 0.27593
 	Max.   : 0.48809
-fBodyBodyGyroMag-mean()	Min.   :-0.9865
+```
+
+### fBodyBodyGyroMag-mean()	
+```
+Min.   :-0.9865
 	1st Qu.:-0.9616
 	Median :-0.7657
 	Mean   :-0.6671
 	3rd Qu.:-0.4087
 	Max.   : 0.2040
-fBodyBodyGyroMag-std()	Min.   :-0.9815
+```
+
+### fBodyBodyGyroMag-std()	
+```
+Min.   :-0.9815
 	1st Qu.:-0.9488
 	Median :-0.7727
 	Mean   :-0.6723
 	3rd Qu.:-0.4277
 	Max.   : 0.2367
-fBodyBodyGyroMag-meanFreq()	Min.   :-0.45664
+```
+
+### fBodyBodyGyroMag-meanFreq()	
+```
+Min.   :-0.45664
 	1st Qu.:-0.16951
 	Median :-0.05352
 	Mean   :-0.03603
 	3rd Qu.: 0.08228
 	Max.   : 0.40952
-fBodyBodyGyroJerkMag-mean()	Min.   :-0.9976
+```
+
+### fBodyBodyGyroJerkMag-mean()	
+```
+Min.   :-0.9976
 	1st Qu.:-0.9813
 	Median :-0.8779
 	Mean   :-0.7564
 	3rd Qu.:-0.5831
 	Max.   : 0.1466
-fBodyBodyGyroJerkMag-std()	Min.   :-0.9976
+```
+
+### fBodyBodyGyroJerkMag-std()	
+```
+Min.   :-0.9976
 	1st Qu.:-0.9802
 	Median :-0.8941
 	Mean   :-0.7715
 	3rd Qu.:-0.6081
 	Max.   : 0.2878
-fBodyBodyGyroJerkMag-meanFreq()	Min.   :-0.18292
+```
+
+### fBodyBodyGyroJerkMag-meanFreq()
+```
+Min.   :-0.18292
 	1st Qu.: 0.05423
 	Median : 0.11156
 	Mean   : 0.12592
 	3rd Qu.: 0.20805
 	Max.   : 0.42630
+```
