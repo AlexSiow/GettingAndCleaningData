@@ -157,7 +157,7 @@ Max.          : 0.6090
 ### tGravityAcc-mean()-X	
 ```
 Description   : The mean of the time domain gravity acceleration signal captured at x axis.  
-                In this Tidy Data Set, each value of tGravityAcc-mean()-X	 is the average for each 
+                In this Tidy Data Set, each value of tGravityAcc-mean()-X is the average for each 
                 activity and each subject.
 Class         : Numeric
 Min.          : -0.6800
@@ -171,7 +171,7 @@ Max.          : 0.9745
 ### tGravityAcc-mean()-Y	
 ```
 Description   : The mean of the time domain gravity acceleration signal captured at y axis.  
-                In this Tidy Data Set, each value of tGravityAcc-mean()-Y	 is the average for each 
+                In this Tidy Data Set, each value of tGravityAcc-mean()-Y is the average for each 
                 activity and each subject.
 Class         : Numeric
 Min.          : -0.47989
@@ -185,7 +185,7 @@ Max.          : 0.95659
 ### tGravityAcc-mean()-Z	
 ```
 Description   : The mean of the time domain gravity acceleration signal captured at z axis.  
-                In this Tidy Data Set, each value of tGravityAcc-mean()-Z	 is the average for each 
+                In this Tidy Data Set, each value of tGravityAcc-mean()-Z is the average for each 
                 activity and each subject.
 Class         : Numeric
 Min.          : -0.49509
@@ -324,32 +324,44 @@ Max.          : 0.03102
 
 ### tBodyGyro-mean()-X	
 ```
-Min.   :-0.20578
-	1st Qu.:-0.04712
-	Median :-0.02871
-	Mean   :-0.03244
-	3rd Qu.:-0.01676
-	Max.   : 0.19270
+Description   : The mean of the time domain body gyroscope measurement at x axis.  
+                In this Tidy Data Set, each value of tBodyGyro-mean()-X is the average for each 
+                activity and each subject.
+Class         : Numeric
+Min.          : -0.20578
+1st Qu.       : -0.04712
+Median        : -0.02871
+Mean          : -0.03244
+3rd Qu.       : -0.01676
+Max.          : 0.19270
 ```
 
 ### tBodyGyro-mean()-Y	
 ```
-Min.   :-0.20421
-	1st Qu.:-0.08955
-	Median :-0.07318
-	Mean   :-0.07426
-	3rd Qu.:-0.06113
-	Max.   : 0.02747
+Description   : The mean of the time domain body gyroscope measurement at y axis.  
+                In this Tidy Data Set, each value of tBodyGyro-mean()-Y	is the average for each 
+                activity and each subject.
+Class         : Numeric
+Min.          : -0.20421
+1st Qu.       : -0.08955
+Median        : -0.07318
+Mean          : -0.07426
+3rd Qu.       : -0.06113
+Max.          : 0.02747
 ```
 
 ### tBodyGyro-mean()-Z	
 ```
-Min.   :-0.07245
-	1st Qu.: 0.07475
-	Median : 0.08512
-	Mean   : 0.08744
-	3rd Qu.: 0.10177
-	Max.   : 0.17910
+Description   : The mean of the time domain body gyroscope measurement at z axis.  
+                In this Tidy Data Set, each value of tBodyGyro-mean()-Z	is the average for each 
+                activity and each subject.
+Class         : Numeric
+Min.          : -0.07245
+1st Qu.       : 0.07475
+Median        : 0.08512
+Mean          : 0.08744
+3rd Qu.       : 0.10177
+Max.          : 0.17910
 ```
 
 ### tBodyGyro-std()-X	
