@@ -47,7 +47,7 @@ The `train/subject_train.txt` contains the subjects in the training set.  The `t
 The `test/subject_test.txt` contains the subjects in the test set.  The `test/X_test.txt` is the features data in the test set.  The `test/y_test.txt` contains the corresponding activities performed by the subjects in the test set.  These files will be used in this project.
 ___
 
-## Progressing the Data
+## Processing the Data
 I am supposed to merge the data in the training set and test set into one single set of data.  I have merged `subject_train.txt` with `subject_test.txt`, `X_train.txt` with `X_test.txt` and `y_train.txt` with `y_test.txt` using rbind.  
 
 I leave the merging of the subject, activity and measurement set (`X_train.txt` and `X_test.txt`) at the later part.  This is because we only want to retain measurements with mean and standard deviation measurement.  It will be easier to do that before the measurement set gets merged.  In order to achieve this goal, I used grepl to search the 561 feature labels from `features.txt` for the pattern "mean|std".  The result from grepl is a logical vector where value will be set to TRUE if there is a match.  The logical vector is used to subset the columns that I want to keep in the measurement set.
