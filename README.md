@@ -23,5 +23,12 @@ I will need to create a R script called run_analysis.R that does the following.
 
 ## Reproducing the tidy data set
 
+Download and place the **run_analysis.R** script in your R working directory.  You may use the getwd() function to find out what is your working directory.
+
+Using either R Console or RStudio, type **source("run_analysis.R")** in the console to load the **run_analysis.R** script from your working directory and run it.
+
+The script will download the zipped source data **UCIHARDataset.zip**.  It will then unzip **UCIHARDataset.zip** in your working directory.
+
+The script will then perform the data processing
 
 
