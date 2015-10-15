@@ -63,11 +63,17 @@ ___
 
 ## Tidy Data Set
 
-According to Hadley Wickham, a tidy data set needs to meet the following 3 points.
+According to Hadley Wickham, a tidy data set needs to have the following 3 characteristics.
 
 1. Each variable forms a column.
 2. Each observation forms a row.
 3. Each type of observational unit forms a table.
+
+In this tiday data set, Subject and Activity are the Fixed variables representing the volunteer and activity performed by the volunteer respectively.  The rest are measured variables each representing mean of different signal for each subject and activity.  Therefore it conforms to the first characteristic.
+
+For each of the measured variable in this tidy data set, it belongs to excactly one set of subject and activity.  Therefore it conforms to the second characteristic.
+
+The observations in this tidy data set are the mean of different signal for each subject and activity from the ADL experiment.  Therefore it conforms to the third characteristic.
 
 The following describes the variables in the final Tidy Data Set.
 
@@ -534,62 +540,56 @@ Value         : -1.0000000 to 1.00000000
 
 ### fBodyAccJerk-mean()-X	
 ```
-Min.   :-0.9946
-	1st Qu.:-0.9828
-	Median :-0.8126
-	Mean   :-0.6139
-	3rd Qu.:-0.2820
-	Max.   : 0.4743
+Description   : Mean of the frequency domain body acceleration jerk signal in x axis.  
+                In this Tidy Data Set, each value of fBodyAccJerk-mean()-X is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAccJerk-mean()-Y	
 ```
-Min.   :-0.9894
-	1st Qu.:-0.9725
-	Median :-0.7817
-	Mean   :-0.5882
-	3rd Qu.:-0.1963
-	Max.   : 0.2767
+Description   : Mean of the frequency domain body acceleration jerk signal in y axis.  
+                In this Tidy Data Set, each value of fBodyAccJerk-mean()-Y is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAccJerk-mean()-Z	
 ```
-Min.   :-0.9920
-	1st Qu.:-0.9796
-	Median :-0.8707
-	Mean   :-0.7144
-	3rd Qu.:-0.4697
-	Max.   : 0.1578
+Description   : Mean of the frequency domain body acceleration jerk signal in z axis.  
+                In this Tidy Data Set, each value of fBodyAccJerk-mean()-Z is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAccJerk-std()-X	
 ```
-Min.   :-0.9951
-	1st Qu.:-0.9847
-	Median :-0.8254
-	Mean   :-0.6121
-	3rd Qu.:-0.2475
-	Max.   : 0.4768
+Description   : Standard deviation of the frequency domain body acceleration jerk signal in x axis.  
+                In this Tidy Data Set, each value of fBodyAccJerk-std()-X is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAccJerk-std()-Y	
 ```
-Min.   :-0.9905
-	1st Qu.:-0.9737
-	Median :-0.7852
-	Mean   :-0.5707
-	3rd Qu.:-0.1685
-	Max.   : 0.3498
+Description   : Standard deviation of the frequency domain body acceleration jerk signal in y axis.  
+                In this Tidy Data Set, each value of fBodyAccJerk-std()-Y is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAccJerk-std()-Z	
 ```
-Min.   :-0.993108
-	1st Qu.:-0.983747
-	Median :-0.895121
-	Mean   :-0.756489
-	3rd Qu.:-0.543787
-	Max.   :-0.006236
+Description   : Standard deviation of the frequency domain body acceleration jerk signal in z axis.  
+                In this Tidy Data Set, each value of fBodyAccJerk-std()-Z is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAccJerk-meanFreq()-X	
