@@ -675,150 +675,135 @@ Value         : -1.0000000 to 1.00000000
 
 ### fBodyGyro-meanFreq()-X	
 ```
-Min.   :-0.395770
-	1st Qu.:-0.213363
-	Median :-0.115527
-	Mean   :-0.104551
-	3rd Qu.: 0.002655
-	Max.   : 0.249209
+Description   : Mean frequency of the frequency domain body gyroscope signal in x axis.  
+                In this Tidy Data Set, each value of fBodyGyro-meanFreq()-X is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyGyro-meanFreq()-Y	
 ```
-Min.   :-0.66681
-	1st Qu.:-0.29433
-	Median :-0.15794
-	Mean   :-0.16741
-	3rd Qu.:-0.04269
-	Max.   : 0.27314
+Description   : Mean frequency of the frequency domain body gyroscope signal in y axis.  
+                In this Tidy Data Set, each value of fBodyGyro-meanFreq()-Y is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyGyro-meanFreq()-Z	
 ```
-Min.   :-0.50749
-	1st Qu.:-0.15481
-	Median :-0.05081
-	Mean   :-0.05718
-	3rd Qu.: 0.04152
-	Max.   : 0.37707
+Description   : Mean frequency of the frequency domain body gyroscope signal in z axis.  
+                In this Tidy Data Set, each value of fBodyGyro-meanFreq()-Z is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAccMag-mean()	
 ```
-Min.   :-0.9868
-	1st Qu.:-0.9560
-	Median :-0.6703
-	Mean   :-0.5365
-	3rd Qu.:-0.1622
-	Max.   : 0.5866
+Description   : Mean of the magnitude of frequency domain body acceleration signal in all 3 axes.  
+                In this Tidy Data Set, each value of fBodyAccMag-mean()	is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAccMag-std()	
 ```
-Min.   :-0.9876
-	1st Qu.:-0.9452
-	Median :-0.6513
-	Mean   :-0.6210
-	3rd Qu.:-0.3654
-	Max.   : 0.1787
+Description   : Standard deviation of the magnitude of frequency domain body acceleration signal in all 3 axes.  
+                In this Tidy Data Set, each value of fBodyAccMag-std() is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAccMag-meanFreq()	
 ```
-Min.   :-0.31234
-	1st Qu.:-0.01475
-	Median : 0.08132
-	Mean   : 0.07613
-	3rd Qu.: 0.17436
-	Max.   : 0.43585
+Description   : Mean frequency of the magnitude of frequency domain body acceleration signal in all 3 axes.  
+                In this Tidy Data Set, each value of fBodyAccMag-meanFreq()	is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyBodyAccJerkMag-mean()	
 ```
-Min.   :-0.9940
-	1st Qu.:-0.9770
-	Median :-0.7940
-	Mean   :-0.5756
-	3rd Qu.:-0.1872
-	Max.   : 0.5384
+Description   : Mean of the magnitude of frequency domain body acceleration jerk signal in all 3 axes.  
+                In this Tidy Data Set, each value of fBodyBodyAccJerkMag-mean()	is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyBodyAccJerkMag-std()	
 ```
-Min.   :-0.9944
-	1st Qu.:-0.9752
-	Median :-0.8126
-	Mean   :-0.5992
-	3rd Qu.:-0.2668
-	Max.   : 0.3163
+Description   : Standard deviation of the magnitude of frequency domain body acceleration jerk signal in all 3 axes.  
+                In this Tidy Data Set, each value of fBodyBodyAccJerkMag-std() is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyBodyAccJerkMag-meanFreq()	
 ```
-Min.   :-0.12521
-	1st Qu.: 0.04527
-	Median : 0.17198
-	Mean   : 0.16255
-	3rd Qu.: 0.27593
-	Max.   : 0.48809
+Description   : Mean frequency of the magnitude of frequency domain body acceleration jerk signal in all 3 axes.  
+                In this Tidy Data Set, each value of fBodyBodyAccJerkMag-meanFreq() is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyBodyGyroMag-mean()	
 ```
-Min.   :-0.9865
-	1st Qu.:-0.9616
-	Median :-0.7657
-	Mean   :-0.6671
-	3rd Qu.:-0.4087
-	Max.   : 0.2040
+Description   : Mean of the magnitude of frequency domain body gyroscope signal in all 3 axes.  
+                In this Tidy Data Set, each value of fBodyBodyGyroMag-mean() is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyBodyGyroMag-std()	
 ```
-Min.   :-0.9815
-	1st Qu.:-0.9488
-	Median :-0.7727
-	Mean   :-0.6723
-	3rd Qu.:-0.4277
-	Max.   : 0.2367
+Description   : Standard deviation of the magnitude of frequency domain body gyroscope signal in all 3 axes.  
+                In this Tidy Data Set, each value of fBodyBodyGyroMag-std() is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyBodyGyroMag-meanFreq()	
 ```
-Min.   :-0.45664
-	1st Qu.:-0.16951
-	Median :-0.05352
-	Mean   :-0.03603
-	3rd Qu.: 0.08228
-	Max.   : 0.40952
+Description   : Mean frequency of the magnitude of frequency domain body gyroscope signal in all 3 axes.  
+                In this Tidy Data Set, each value of fBodyBodyGyroMag-meanFreq() is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyBodyGyroJerkMag-mean()	
 ```
-Min.   :-0.9976
-	1st Qu.:-0.9813
-	Median :-0.8779
-	Mean   :-0.7564
-	3rd Qu.:-0.5831
-	Max.   : 0.1466
+Description   : Mean of the magnitude of frequency domain body gyroscope jerk signal in all 3 axes.  
+                In this Tidy Data Set, each value of fBodyBodyGyroJerkMag-mean() is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyBodyGyroJerkMag-std()	
 ```
-Min.   :-0.9976
-	1st Qu.:-0.9802
-	Median :-0.8941
-	Mean   :-0.7715
-	3rd Qu.:-0.6081
-	Max.   : 0.2878
+Description   : Standard deviation of the magnitude of frequency domain body gyroscope jerk signal in all 3 axes.  
+                In this Tidy Data Set, each value of fBodyBodyGyroJerkMag-std() is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyBodyGyroJerkMag-meanFreq()
 ```
-Min.   :-0.18292
-	1st Qu.: 0.05423
-	Median : 0.11156
-	Mean   : 0.12592
-	3rd Qu.: 0.20805
-	Max.   : 0.42630
+Description   : Mean frequency of the magnitude of frequency domain body gyroscope jerk signal in all 3 axes.  
+                In this Tidy Data Set, each value of fBodyBodyGyroJerkMag-meanFreq() is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
