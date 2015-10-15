@@ -594,92 +594,83 @@ Value         : -1.0000000 to 1.00000000
 
 ### fBodyAccJerk-meanFreq()-X	
 ```
-Min.   :-0.57604
-	1st Qu.:-0.28966
-	Median :-0.06091
-	Mean   :-0.06910
-	3rd Qu.: 0.17660
-	Max.   : 0.33145
+Description   : Mean frequency of the frequency domain body acceleration jerk signal in x axis.  
+                In this Tidy Data Set, each value of fBodyAccJerk-meanFreq()-X is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAccJerk-meanFreq()-Y	
 ```
-Min.   :-0.60197
-	1st Qu.:-0.39751
-	Median :-0.23209
-	Mean   :-0.22810
-	3rd Qu.:-0.04721
-	Max.   : 0.19568
+Description   : Mean frequency of the frequency domain body acceleration jerk signal in y axis.  
+                In this Tidy Data Set, each value of fBodyAccJerk-meanFreq()-Y is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyAccJerk-meanFreq()-Z	
 ```
-Min.   :-0.62756
-	1st Qu.:-0.30867
-	Median :-0.09187
-	Mean   :-0.13760
-	3rd Qu.: 0.03858
-	Max.   : 0.23011
+Description   : Mean frequency of the frequency domain body acceleration jerk signal in z axis.  
+                In this Tidy Data Set, each value of fBodyAccJerk-meanFreq()-Z is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyGyro-mean()-X	
 ```
-Min.   :-0.9931
-	1st Qu.:-0.9697
-	Median :-0.7300
-	Mean   :-0.6367
-	3rd Qu.:-0.3387
-	Max.   : 0.4750
+Description   : Mean of the frequency domain body gyroscope signal in x axis.  
+                In this Tidy Data Set, each value of fBodyGyro-mean()-X is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyGyro-mean()-Y	
 ```
-Min.   :-0.9940
-	1st Qu.:-0.9700
-	Median :-0.8141
-	Mean   :-0.6767
-	3rd Qu.:-0.4458
-	Max.   : 0.3288
+Description   : Mean of the frequency domain body gyroscope signal in y axis.  
+                In this Tidy Data Set, each value of fBodyGyro-mean()-Y is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyGyro-mean()-Z	
 ```
-Min.   :-0.9860
-	1st Qu.:-0.9624
-	Median :-0.7909
-	Mean   :-0.6044
-	3rd Qu.:-0.2635
-	Max.   : 0.4924
+Description   : Mean of the frequency domain body gyroscope signal in z axis.  
+                In this Tidy Data Set, each value of fBodyGyro-mean()-Z is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyGyro-std()-X	
 ```
-Min.   :-0.9947
-	1st Qu.:-0.9750
-	Median :-0.8086
-	Mean   :-0.7110
-	3rd Qu.:-0.4813
-	Max.   : 0.1966
+Description   : Standard deviation of the frequency domain body gyroscope signal in x axis.  
+                In this Tidy Data Set, each value of fBodyGyro-std()-X is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyGyro-std()-Y	
 ```
-Min.   :-0.9944
-	1st Qu.:-0.9602
-	Median :-0.7964
-	Mean   :-0.6454
-	3rd Qu.:-0.4154
-	Max.   : 0.6462
+Description   : Standard deviation of the frequency domain body gyroscope signal in y axis.  
+                In this Tidy Data Set, each value of fBodyGyro-std()-Y is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyGyro-std()-Z	
 ```
-Min.   :-0.9867
-	1st Qu.:-0.9643
-	Median :-0.8224
-	Mean   :-0.6577
-	3rd Qu.:-0.3916
-	Max.   : 0.5225
+Description   : Standard deviation of the frequency domain body gyroscope signal in z axis.  
+                In this Tidy Data Set, each value of fBodyGyro-std()-Z is the average for each 
+                activity and each subject.
+Class         : Numeric
+Value         : -1.0000000 to 1.00000000
 ```
 
 ### fBodyGyro-meanFreq()-X	
