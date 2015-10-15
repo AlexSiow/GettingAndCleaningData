@@ -13,14 +13,15 @@ I will need to create a R script called run_analysis.R that does the following.
 ```
 
 ## Incuded the submission
-```
-1. A tidy data set.
-2. A link to a Github repository with your script for performing the analysis.
-3. A code book that describes the variables, the data, and any transformations 
-   or work that you performed to clean up the data called CodeBook.md.
-4. A README.md file (which is this file) explaining how all of the scripts work and 
-   how they are connected.
-```
+|No.|File           |Description                                   |
+|---|---------------|----------------------------------------------|
+|1  |TidyData.txt   |The tidy data set.                            |
+|2  |run_analysis.R |The R script that produces the tidy data set. |
+|3  |CodeBook.md    |The code book that describes the variables, the data, and any transformations or work that was performed to clean up the data. |
+|4  |README.md      | The README.md file which explains how all of the scripts work and how they are connected. |
+
+
+## Reproducing the tidy data set
 
 
 
