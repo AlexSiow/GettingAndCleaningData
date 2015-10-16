@@ -71,7 +71,7 @@ According to Hadley Wickham, a tidy data set needs to have the following 3 chara
 
 In this tiday data set, Subject and Activity are the Fixed variables representing the volunteer and activity performed by the volunteer respectively.  The rest are measured variables for each subject and activity.  Therefore it conforms to the first characteristic.
 
-For each of the measured variable in this tidy data set, it belongs to excactly one set of subject and activity.  Therefore it conforms to the second characteristic.
+Each of the measured variable in this tidy data set belongs to excactly one set of subject and activity.  Therefore it conforms to the second characteristic.
 
 The observations in this tidy data set are the mean of different signal for each subject and activity from the ADL experiment.  Therefore it conforms to the third characteristic.
 
