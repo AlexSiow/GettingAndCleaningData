@@ -69,7 +69,7 @@ According to Hadley Wickham, a tidy data set needs to have the following 3 chara
 2. Each observation forms a row.
 3. Each type of observational unit forms a table.
 
-In this tiday data set, Subject and Activity are the Fixed variables representing the volunteer and activity performed by the volunteer respectively.  The rest are measured variables each representing mean of different signal for each subject and activity.  Therefore it conforms to the first characteristic.
+In this tiday data set, Subject and Activity are the Fixed variables representing the volunteer and activity performed by the volunteer respectively.  The rest are measured variables for each subject and activity.  Therefore it conforms to the first characteristic.
 
 For each of the measured variable in this tidy data set, it belongs to excactly one set of subject and activity.  Therefore it conforms to the second characteristic.
 
@@ -99,7 +99,7 @@ Value         : WALKING
 
 ### tBodyAcc-mean()-X	
 ```
-Description   : The mean of the time domain body acceleration signal in x axis.  
+Description   : Mean of the time domain body acceleration signal in x axis.  
                 In this Tidy Data Set, each value of tBodyAcc-mean()-X is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -108,7 +108,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyAcc-mean()-Y	
 ```
-Description   : The mean of the time domain body acceleration signal in y axis.  
+Description   : Mean of the time domain body acceleration signal in y axis.  
                 In this Tidy Data Set, each value of tBodyAcc-mean()-Y is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -117,7 +117,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyAcc-mean()-Z	
 ```
-Description   : The mean of the time domain body acceleration signal in z axis.  
+Description   : Mean of the time domain body acceleration signal in z axis.  
                 In this Tidy Data Set, each value of tBodyAcc-mean()-Z is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -126,7 +126,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyAcc-std()-X	
 ```
-Description   : The standard deviation of the time domain body acceleration signal in x axis.  
+Description   : Standard deviation of the time domain body acceleration signal in x axis.  
                 In this Tidy Data Set, each value of tBodyAcc-std()-X is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -135,7 +135,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyAcc-std()-Y	
 ```
-Description   : The standard deviation of the time domain body acceleration signal in y axis.  
+Description   : Standard deviation of the time domain body acceleration signal in y axis.  
                 In this Tidy Data Set, each value of tBodyAcc-std()-Y is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -144,7 +144,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyAcc-std()-Z	
 ```
-Description   : The standard deviation of the time domain body acceleration signal in z axis.  
+Description   : Standard deviation of the time domain body acceleration signal in z axis.  
                 In this Tidy Data Set, each value of tBodyAcc-std()-Z	is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -153,7 +153,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tGravityAcc-mean()-X	
 ```
-Description   : The mean of the time domain gravity acceleration signal in x axis.  
+Description   : Mean of the time domain gravity acceleration signal in x axis.  
                 In this Tidy Data Set, each value of tGravityAcc-mean()-X is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -162,7 +162,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tGravityAcc-mean()-Y	
 ```
-Description   : The mean of the time domain gravity acceleration signal in y axis.  
+Description   : Mean of the time domain gravity acceleration signal in y axis.  
                 In this Tidy Data Set, each value of tGravityAcc-mean()-Y is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -171,7 +171,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tGravityAcc-mean()-Z	
 ```
-Description   : The mean of the time domain gravity acceleration signal in z axis.  
+Description   : Mean of the time domain gravity acceleration signal in z axis.  
                 In this Tidy Data Set, each value of tGravityAcc-mean()-Z is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -180,7 +180,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tGravityAcc-std()-X	
 ```
-Description   : The standard deviation of the time domain gravity acceleration signal in x axis.  
+Description   : Standard deviation of the time domain gravity acceleration signal in x axis.  
                 In this Tidy Data Set, each value of tGravityAcc-std()-X is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -189,7 +189,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tGravityAcc-std()-Y	
 ```
-Description   : The standard deviation of the time domain gravity acceleration signal in y axis.  
+Description   : Standard deviation of the time domain gravity acceleration signal in y axis.  
                 In this Tidy Data Set, each value of tGravityAcc-std()-Y is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -198,7 +198,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tGravityAcc-std()-Z	
 ```
-Description   : The standard deviation of the time domain gravity acceleration signal in z axis.  
+Description   : Standard deviation of the time domain gravity acceleration signal in z axis.  
                 In this Tidy Data Set, each value of tGravityAcc-std()-Z is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -207,7 +207,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyAccJerk-mean()-X	
 ```
-Description   : The mean of the time domain body acceleration jerk signal in x axis.  
+Description   : Mean of the time domain body acceleration jerk signal in x axis.  
                 In this Tidy Data Set, each value of tBodyAccJerk-mean()-X is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -216,7 +216,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyAccJerk-mean()-Y	
 ```
-Description   : The mean of the time domain body acceleration jerk signal in y axis.  
+Description   : Mean of the time domain body acceleration jerk signal in y axis.  
                 In this Tidy Data Set, each value of tBodyAccJerk-mean()-Y is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -225,7 +225,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyAccJerk-mean()-Z	
 ```
-Description   : The mean of the time domain body acceleration jerk signal in z axis.  
+Description   : Mean of the time domain body acceleration jerk signal in z axis.  
                 In this Tidy Data Set, each value of tBodyAccJerk-mean()-Z is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -234,7 +234,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyAccJerk-std()-X	
 ```
-Description   : The standard deviation of the time domain body acceleration jerk signal in x axis.  
+Description   : Standard deviation of the time domain body acceleration jerk signal in x axis.  
                 In this Tidy Data Set, each value of tBodyAccJerk-std()-X is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -243,7 +243,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyAccJerk-std()-Y	
 ```
-Description   : The standard deviation of the time domain body acceleration jerk signal in y axis.  
+Description   : Standard deviation of the time domain body acceleration jerk signal in y axis.  
                 In this Tidy Data Set, each value of tBodyAccJerk-std()-Y is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -252,7 +252,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyAccJerk-std()-Z	
 ```
-Description   : The standard deviation of the time domain body acceleration jerk signal in z axis.  
+Description   : Standard deviation of the time domain body acceleration jerk signal in z axis.  
                 In this Tidy Data Set, each value of tBodyAccJerk-std()-Z is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -261,7 +261,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyGyro-mean()-X	
 ```
-Description   : The mean of the time domain body gyroscope signal in x axis.  
+Description   : Mean of the time domain body gyroscope signal in x axis.  
                 In this Tidy Data Set, each value of tBodyGyro-mean()-X is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -270,7 +270,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyGyro-mean()-Y	
 ```
-Description   : The mean of the time domain body gyroscope signal in y axis.  
+Description   : Mean of the time domain body gyroscope signal in y axis.  
                 In this Tidy Data Set, each value of tBodyGyro-mean()-Y	is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -279,7 +279,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyGyro-mean()-Z	
 ```
-Description   : The mean of the time domain body gyroscope signal in z axis.  
+Description   : Mean of the time domain body gyroscope signal in z axis.  
                 In this Tidy Data Set, each value of tBodyGyro-mean()-Z	is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -288,7 +288,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyGyro-std()-X	
 ```
-Description   : The standard deviation of the time domain body gyroscope signal in x axis.  
+Description   : Standard deviation of the time domain body gyroscope signal in x axis.  
                 In this Tidy Data Set, each value of tBodyGyro-std()-X is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -297,7 +297,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyGyro-std()-Y	
 ```
-Description   : The standard deviation of the time domain body gyroscope signal in y axis.  
+Description   : Standard deviation of the time domain body gyroscope signal in y axis.  
                 In this Tidy Data Set, each value of tBodyGyro-std()-Y is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -306,7 +306,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyGyro-std()-Z	
 ```
-Description   : The standard deviation of the time domain body gyroscope signal in z axis.  
+Description   : Standard deviation of the time domain body gyroscope signal in z axis.  
                 In this Tidy Data Set, each value of tBodyGyro-std()-Z is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -315,7 +315,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyGyroJerk-mean()-X	
 ````
-Description   : The mean of the time domain body gyroscope jerk signal in x axis.  
+Description   : Mean of the time domain body gyroscope jerk signal in x axis.  
                 In this Tidy Data Set, each value of tBodyGyroJerk-mean()-X is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -324,7 +324,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyGyroJerk-mean()-Y	
 ```
-Description   : The mean of the time domain body gyroscope jerk signal in y axis.  
+Description   : Mean of the time domain body gyroscope jerk signal in y axis.  
                 In this Tidy Data Set, each value of tBodyGyroJerk-mean()-Y is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -333,7 +333,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyGyroJerk-mean()-Z	
 ```
-Description   : The mean of the time domain body gyroscope jerk signal in z axis.  
+Description   : Mean of the time domain body gyroscope jerk signal in z axis.  
                 In this Tidy Data Set, each value of tBodyGyroJerk-mean()-Z is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -342,7 +342,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyGyroJerk-std()-X	
 ```
-Description   : The standard deviation of the time domain body gyroscope jerk signal in x axis.  
+Description   : Standard deviation of the time domain body gyroscope jerk signal in x axis.  
                 In this Tidy Data Set, each value of tBodyGyroJerk-std()-X is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -351,7 +351,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyGyroJerk-std()-Y	
 ```
-Description   : The standard deviation of the time domain body gyroscope jerk signal in y axis.  
+Description   : Standard deviation of the time domain body gyroscope jerk signal in y axis.  
                 In this Tidy Data Set, each value of tBodyGyroJerk-std()-Y is the average for each 
                 activity and each subject.
 Class         : Numeric
@@ -360,7 +360,7 @@ Value         : -1.0000000 to 1.00000000
 
 ### tBodyGyroJerk-std()-Z	
 ```
-Description   : The standard deviation of the time domain body gyroscope jerk signal in z axis.  
+Description   : Standard deviation of the time domain body gyroscope jerk signal in z axis.  
                 In this Tidy Data Set, each value of tBodyGyroJerk-std()-Z is the average for each 
                 activity and each subject.
 Class         : Numeric
