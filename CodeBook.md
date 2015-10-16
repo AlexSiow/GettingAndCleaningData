@@ -73,7 +73,7 @@ In this tiday data set, Subject and Activity are the Fixed variables representin
 
 Each of the measured variable in this tidy data set belongs to excactly one set of subject and activity.  Therefore it conforms to the second characteristic.
 
-The observations in this tidy data set are the mean of different signal for each subject and activity from the ADL experiment.  Therefore it conforms to the third characteristic.
+The only observational unit in this tidy data set is the activity performed by each subject.  Therefore it conforms to the third characteristic.
 
 The following describes the variables in the final Tidy Data Set.
 
