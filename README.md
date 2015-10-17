@@ -27,9 +27,9 @@ I will need to create a R script called run_analysis.R that does the following.
 
 ## Reproducing the tidy data set
 
-1. The script requires the *dplyr* package to be installed.  You may use *install.packages("dplyr")* to install the *dplyr* package if it is not installed yet.
+1. The script requires the **dplyr** package to be installed.  You may use **install.packages("dplyr")** to install the **dplyr** package if it is not installed yet.
 
-2. Download and place the **run_analysis.R** script in your R working directory.  You may use the *getwd()* function to find out what is your working directory.
+2. Download and place the **run_analysis.R** script in your R working directory.  You may use the **getwd()** function to find out what is your working directory.
 
 3. Using either R Console or RStudio, type **source("run_analysis.R")** in the console to load the **run_analysis.R** script from your working directory and run it.
 
