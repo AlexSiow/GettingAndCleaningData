@@ -1,5 +1,6 @@
 # Code Book #
-*Written by Siow Yong Teck*
+
+*Prepared by Siow Yong Teck*
 
 ## Introduction
 
